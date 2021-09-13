@@ -1,0 +1,88 @@
+<html>
+<head></head>
+<body>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+header {
+  text-align: center;
+  background-color:  #B0E0E6;
+}
+article{
+  text-align: center;
+  background-color:  #DCDCDC;
+}
+footer{
+  text-align: center;
+  background-color:  #ADFF2F;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pemrograman WEB</h1>
+
+<ul>
+  <li><a  href="indek.html">Home</a> </li>
+  <li><a class="active" href="login.html">Daftar</a> </li>
+  <li><a href="#Kontak">Kontak</a> </li>
+</ul>
+</header>
+<section>
+ <form action="">
+ 	<h2>FORM DAFTAR </h2>
+ 	<label> NAMA DEPAN </label> 
+ 	<input type="text"> 
+ 	<label> NAMA BELAKANG </label>
+ 	<input type="text"><br>
+ 	<label> ALAMAT</label>
+ 	<textarea name="message" rows="5" cols="30"></textarea><br>
+ 	<label> TEMPAT LAHIR </label>
+ 	<input type="text"><br> 
+    <label> TANGGAL LAHIR </label>
+ 	<input type="date" id="TANGGAL LAHIR" name="TANGGAL LAHIR"><br>
+ 	<label> JENIS KELAMIN : </label>
+ 	<label>LAKI-LAKI</label>
+ 	<input type="radio">
+ 	<label> PEREMPUAN</label>
+ 	<input type="radio"> <br>
+ 	<label> HOBBY</label>
+ 	<label>Sepak Bola</label>
+ 	<input type="checkbox">
+ 	<label>Membaca</label>
+ 	<input type="checkbox">
+ 	<label>traveling</label>
+ 	<input type="checkbox">
+
+ </form>
+</section>
+ <footer>
+    <p> Created by Dhidduk <br>>Kelas XII RPL 1</p>
+  </footer>
+</body>
+</html>
